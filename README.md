@@ -148,7 +148,7 @@ Done! You'll now see two flash messages upon redirect.
 
 ## Credits
 
-[Fábio Assunção](https://github.com/fabioassuncao) and dedicated [contributors](https://github.com/fabioassuncao/docker-images/graphs/contributors).
+[Fábio Assunção](https://github.com/fabioassuncao) and dedicated [contributors](https://github.com/Codions/laraflash/graphs/contributors).
 
 ## License
 
