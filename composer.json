@@ -1,0 +1,38 @@
+{
+    "name": "codions/laraflash",
+    "description": "Simple message system for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fábio Assunção",
+            "email": "fabio23gt@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/support": "~5.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master",
+        "phpunit/phpunit": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codions\\Laraflash": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codions\\Laraflash\\FlashServiceProvider"
+            ],
+            "aliases": {
+                "Flash": "Codions\\Laraflash\\Flash"
+            }
+        }
+    }
+}
